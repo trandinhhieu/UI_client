@@ -71,6 +71,10 @@
     letter-spacing: 1px;
 }
 
+.topbar .top-info {
+    color: #000000;
+}
+
 .topbar .top-link {
     display: flex;
     align-items: center;
@@ -667,3 +671,12 @@
 }
 
 /*** Footer End ***/
+
+#main-header {
+    height: 48px;
+}
+
+#main-menu {
+    position: fixed;
+    z-index: 9999;
+}
